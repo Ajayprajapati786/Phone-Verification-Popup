@@ -1,0 +1,67 @@
+.phone-verification-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .phone-verification-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    position: relative;
+    width: 320px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .popup-title {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  .otp-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp-input {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 8px;
+  }
+  
+  .verify-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
